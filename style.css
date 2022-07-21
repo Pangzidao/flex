@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body h1 {
+  margin: 100px;
+}
+body #container {
+  width: 600px;
+  height: 400px;
+  border: solid;
+  display: flex;
+}
+body #container .box {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
