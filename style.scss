@@ -23,9 +23,6 @@ body{
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    h1{
-        margin:10px 0px 10px 0px;
-    }
     nav{
         display: flex;
         width: 100%;
@@ -39,8 +36,9 @@ body{
                 button{
                     border: none;
                     width: 100%;
-                    padding: 10px;
+                    padding: 2px;
                     margin:3px;
+                    font-size: 0.5rem;
                     &:hover{
                         cursor: pointer;
                     }
