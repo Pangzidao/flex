@@ -1,8 +1,18 @@
+/*police*/
+@font-face {
+  font-family: "Syncopate";
+  src: url("/Syncopate/Syncopate-Bold.ttf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Syncopate", Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 1rem;
 }
 
 body {
@@ -12,17 +22,45 @@ body {
   flex-direction: column;
 }
 body h1 {
-  margin: 100px;
+  font-size: 3rem;
+  margin: 30px;
 }
-body #container {
-  width: 600px;
-  height: 400px;
-  border: solid;
+body nav {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 30px;
 }
-body #container .box {
-  width: 100px;
-  height: 100px;
+body nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+body nav ul li {
+  margin: 5px;
+  padding: 5px;
+}
+body nav ul li button {
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+body nav ul li button:hover {
+  cursor: pointer;
+}
+body section {
+  width: 100vh;
+  height: 50vh;
   border: solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+body section div {
+  min-height: 100px;
+  min-width: 100px;
   margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
 }/*# sourceMappingURL=style.css.map */
