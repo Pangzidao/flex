@@ -35,6 +35,10 @@ body nav ul {
   flex-direction: column;
   align-items: stretch;
 }
+body nav ul li {
+  font-size: 0.5rem;
+  color: blue;
+}
 body nav ul li button {
   border: none;
   width: 100%;
