@@ -36,19 +36,17 @@ body nav ul {
   align-items: stretch;
 }
 body nav ul li {
-  font-size: 0.4rem;
   color: blue;
   margin: 0px 3px 0px 3px;
 }
 body nav ul li button {
   border: none;
-  font-size: 0.4rem;
   margin: 2px;
   width: 100%;
 }
 body section {
   width: 80%;
-  height: 50vh;
+  height: 80vh;
   border: solid;
   border-radius: 20px;
   display: flex;
